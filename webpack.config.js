@@ -33,6 +33,7 @@ module.exports = {
     }),
   ],
   mode: 'development',
+  devtool: 'eval-source-map',
   devServer: {
     port: 5000,
     historyApiFallback: true,
