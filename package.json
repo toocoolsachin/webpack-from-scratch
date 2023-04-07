@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.prod.js",
+    "build": "webpack --config webpack.prod.js && npm run post-build",
+    "post-build": "cp public/_redirects build",
     "start": "webpack serve --config webpack.dev.js"
   },
   "keywords": [],
