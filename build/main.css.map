@@ -1,0 +1,1 @@
+{"version":3,"file":"main.css","mappings":"AAAA,KACE,wBAEA,QACE,UAGF,SAEE,YADA,WACA","sources":["webpack://webpack-from-scratch/./src/index.scss"],"sourcesContent":["body {\r\n  background-color: orange;\r\n\r\n  h1 {\r\n    color: red;\r\n  }\r\n\r\n  img {\r\n    width: 240px;\r\n    height: auto;\r\n  }\r\n}\r\n"],"names":[],"sourceRoot":""}
