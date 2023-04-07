@@ -10,7 +10,8 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx'],
     alias: {
-      images: path.join(__dirname, './src/images'),
+      images: path.join(__dirname, 'src/images'),
+      src: path.join(__dirname, 'src'),
     },
   },
   module: {
