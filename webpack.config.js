@@ -1,6 +1,8 @@
 const path = require('path');
 const webpack = require('webpack');
 
+require('dotenv').config();
+
 module.exports = {
   entry: './src/index.jsx',
   output: {
@@ -34,6 +36,9 @@ module.exports = {
   plugins: [
     new webpack.ProvidePlugin({
       React: 'react',
+    }),
+    new webpack.DefinePlugin({
+      'process.env': JSON.stringify(process.env),
     }),
   ],
   mode: 'development',
