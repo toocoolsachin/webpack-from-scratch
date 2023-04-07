@@ -9,6 +9,9 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.jsx'],
+    alias: {
+      images: path.join(__dirname, './src/images'),
+    },
   },
   module: {
     rules: [
