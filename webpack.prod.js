@@ -4,7 +4,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 const webpack = require('webpack');
 
-require('dotenv').config();
+require('dotenv').config({
+  path: './.env.prod',
+});
 
 module.exports = {
   entry: './src/index.jsx',
